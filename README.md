@@ -131,6 +131,8 @@ Stuff that's interesting about Soroban, their new smart contract platform:
    
    (also, yes, that's a screenshot of [an issue](https://github.com/stellar/rs-soroban-sdk/issues/683) where they're considering switching to WIT, inspired by our work!)
 
+- contract interface / ABI added to the Wasm custom section, [RAEN](https://raen.dev/)-style, by default, so that Every. Single. Contract. will have fully-typed interfaces discoverable by all developers on the platform, right out the gate
+
 - sometimes being late to the game is an asset: can learn from existing Rust & Wasm blockchains, taking what works and tweaking what doesn't
 
 - those contract sizes!
